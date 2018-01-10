@@ -2,10 +2,48 @@
 <html>
   <head>
     <title></title>
+    <meta charset="UTF-8">
   </head>
   <body>
+
+    <div id='header-canvas'>
+    </div>
+
+    <div id='training'>
+    </div>
+
+    <div id='xp'>
+    </div>
+
+    <div id='skills'>
+    </div>
+
+    <script type='application/ecmascript'
+            src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'
+            ></script>
+    <script type='application/ecmascript'
+            src='https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js'
+            ></script>
+
+    <script id='header-template' type='x-tmpl-mustache'>
+        <div>
+          <div>{{ name }}</div>
+          <div>{{ e-mail }}</div>
+          <div>{{ phone }}</div>
+        </div>
+        <div>
+          <div>{{ role }}</div>
+          {{ #profiles }}
+          <div><a href='{{ link }}'>{{ link }}</a></div>
+          {{ /profiles }}
+        </div>
+    </script>
+
+    <script type='application/ecmascript' src='id.js'></script>
     <script type='application/ecmascript' src='xp.js'></script>
     <script type='application/ecmascript' src='training.js'></script>
     <script type='application/ecmascript' src='skills.js'></script>
+
+    <script type='application/ecmascript' src='cv.js'></script>
   </body>
 </html>
