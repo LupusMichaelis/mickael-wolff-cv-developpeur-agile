@@ -3,6 +3,10 @@ $([
 	, 'target': '#header-canvas'
 	}
 	,
+	{ 'template': '#xp-template'
+	, 'target': '#xp-canvas'
+	}
+	,
 	{ 'template': '#training-template'
 	, 'target': '#training-canvas'
 	}
