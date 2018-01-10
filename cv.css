@@ -40,6 +40,18 @@ div#header-canvas:after
 
 /* Experience ************************************************/
 
+
+div#xp-canvas .skills li
+{
+	display: inline;
+	font-style: italic;
+}
+
+div#xp-canvas .skills li:not(:last-child):after
+{
+	content: ', ';
+}
+
 /* Training **************************************************/
 
 /* Skills ****************************************************/
