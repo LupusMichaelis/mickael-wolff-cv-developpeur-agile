@@ -1,4 +1,46 @@
+@page {
+   size: 21cm 29.7cm;
+   margin: 30mm 45mm 30mm 45mm;
+}
+
 body {
   font-family:  Verdana, Arial, Helvetica, sans-serif;
   text-align:   justify ;
 }
+
+/* Header ****************************************************/
+div#header-canvas > :first-child > :first-child
+, div#header-canvas > :last-child > :first-child
+{
+	font-size: 25px;
+}
+
+div#header-canvas > :last-child > :first-child
+{
+	font-variant: small-caps;
+}
+
+div#header-canvas > div
+{
+	font-size: 15px;
+	float: left;
+}
+
+div#header-canvas > :last-child
+{
+	float: right;
+}
+
+div#header-canvas:after
+{
+	content: '';
+	clear: both;
+	display: table;
+}
+
+/* Experience ************************************************/
+
+/* Training **************************************************/
+
+/* Skills ****************************************************/
+
