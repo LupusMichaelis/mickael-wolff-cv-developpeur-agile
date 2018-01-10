@@ -1,4 +1,4 @@
-var id =
+assets.id =
 	{ 'name': 'Mickaël Wolff'
 	, 'role': 'Développeur agile'
 	, 'phone': '+33 7 67 16 96 86'

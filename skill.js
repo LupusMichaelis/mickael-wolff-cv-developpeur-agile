@@ -1,4 +1,4 @@
-var skills =
+assets.skills =
 	[
 		{ 'name': ''
 		, 'kind': ''

@@ -1,4 +1,4 @@
-var jobs =
+assets.jobs =
 	[
 		{ 'period': { 'start': '', 'end': ''}
 		, 'company': {}
