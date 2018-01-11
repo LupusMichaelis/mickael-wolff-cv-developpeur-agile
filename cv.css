@@ -1,7 +1,9 @@
+/*
 @page {
    size: 21cm 29.7cm;
    margin: 30mm 45mm 30mm 45mm;
 }
+*/
 
 body {
   font-family:  Verdana, Arial, Helvetica, sans-serif;
@@ -40,7 +42,29 @@ div#header-canvas:after
 
 /* Experience ************************************************/
 
+div#xp-canvas > div
+{
+	float: left;
+}
 
+div#xp-canvas div.period
+{
+	width: 20%;
+}
+
+div#xp-canvas div.period+div
+{
+	width: 80%;
+}
+
+div#xp-canvas:after
+{
+	content: '';
+	clear: both;
+	display: table;
+}
+
+/* Experience skills *****************************************/
 div#xp-canvas .skills li
 {
 	display: inline;
