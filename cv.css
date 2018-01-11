@@ -48,62 +48,42 @@ div#header-canvas:after
 	display: block;
 }
 
-/* Experience ************************************************/
+/* Chronological events **************************************/
 
-div#xp-canvas > div
+div.chronology
 {
 	box-sizing: border-box;
 	clear: both;
 }
 
-div#xp-canvas > div > div
+div.chronology > div:last-child
 {
 	float: left;
 	box-sizing: border-box;
-	width: 15.1cm;
+	width: 17.1cm;
+	padding-left: 10mm;
 }
 
-div#xp-canvas p.period
+div.chronology > div:first-child
 {
-	width: 5.2cm;
+	border: inherit;
+	margin: inherit;
+	width: 3.2cm;
 	float: left;
 	box-sizing: border-box;
 }
 
 /* Experience skills *****************************************/
-div#xp-canvas .skills li
+div.chronology .skills li
 {
 	display: inline;
 	font-style: italic;
 }
 
-div#xp-canvas .skills li:not(:last-child):after
+div.chronology.skills li:not(:last-child):after
 {
 	content: ', ';
 }
-
-/* Training **************************************************/
-
-div#training-canvas > div
-{
-	box-sizing: border-box;
-	clear: both;
-}
-
-div#training-canvas > div > div
-{
-	float: left;
-	box-sizing: border-box;
-	width: 15.1cm;
-}
-
-div#training-canvas p.period
-{
-	width: 5.2cm;
-	float: left;
-	box-sizing: border-box;
-}
-
 
 /* Skills ****************************************************/
 

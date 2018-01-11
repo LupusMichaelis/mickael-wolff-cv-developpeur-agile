@@ -43,8 +43,10 @@
     <script id='training-template' type='x-tmpl-mustache'>
         <h1>Formation</h1>
         {{ #training }}
-        <div>
-          <p class='period'>{{ period.start }}&nbsp;&hyphen;&nbsp;{{ period.end }}</p>
+        <div class='chronology'>
+          <div>
+            <div class='period'>{{ period.start }}&nbsp;&hyphen;&nbsp;{{ period.end }}</div>
+          </div>
           <div>
             <div>
               {{ title }}
@@ -81,17 +83,19 @@
     <script id='xp-template' type='x-tmpl-mustache'>
         <h1>Expérience</h1>
         {{ #xp }}
-        <div>
-          <p class='period'>{{ period.start }}&nbsp;&hyphen;&nbsp;{{ period.end }}</p>
+        <div class='chronology'>
+          <div>
+            <div class='period'>{{ period.start }}<br/>{{ period.end }}</div>
+            <b>{{role}}</b>
+          </div>
           <div>
             <div>
-              {{ company.name }},
+              <b>{{ company.name }}</b>,
               {{ company.location.city }},
               {{ company.location.country }}
             </div>
-            <div>{{role}}</div>
+            <div>{{company.business}}</div>
             <div>
-              {{ business }}
               {{ #objective }}<i>({{ objective }})</i>{{ /objective }}
             </div>
             <div class='skills'>
