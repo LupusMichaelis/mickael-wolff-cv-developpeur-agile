@@ -67,8 +67,7 @@ assets.xp =
 			, 'Jira'
 			]
 		, 'missions':
-			[ 
-			, 'MoneyButton (StarsCard, OrangeCash, DNA Tapaka projects)'
+			[ 'MoneyButton (StarsCard, OrangeCash, DNA Tapaka projects)'
 			, 'développement d\'outils de déploiement en script shell utilisant PHP composer et les capacité de branchage de Subversion'
 			, 'développement de points d\'entrée de l\'API du projet StarsCard'
 			, 'développement du composant de communication du frontend avec l\'API dans l\'architecture MoneyButton'
