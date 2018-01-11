@@ -44,33 +44,35 @@
         <h1>Formation</h1>
         {{ #training }}
         <div>
-          <div>{{ period.start }}&nbsp;&hyphen;&nbsp;{{ period.end }}</div>
+          <p class='period'>{{ period.start }}&nbsp;&hyphen;&nbsp;{{ period.end }}</p>
           <div>
-            {{ title }}
-            {{ #objective }}<i>({{ objective }})</i>{{ /objective }}
-          </div>
-          <div>
-            {{ organism.name }},
-            {{ organism.location.city }},
-            {{ organism.location.country }}
-          </div>
-          <div>
-            {{#degrees.length}}
-            <ul>
-              {{#degrees}}
-                <li>{{title}}</li>
-              {{/degrees}}
-            </ul>
-            {{/degrees.length}}
-          </div>
-          <div>
-            {{#topics.length}}
-            <ul>
-              {{#topics}}
-                <li>{{.}}</li>
-              {{/topics}}
-            </ul>
-            {{/topics.length}}
+            <div>
+              {{ title }}
+              {{ #objective }}<i>({{ objective }})</i>{{ /objective }}
+            </div>
+            <div>
+              {{ organism.name }},
+              {{ organism.location.city }},
+              {{ organism.location.country }}
+            </div>
+            <div>
+              {{#degrees.length}}
+              <ul>
+                {{#degrees}}
+                  <li>{{title}}</li>
+                {{/degrees}}
+              </ul>
+              {{/degrees.length}}
+            </div>
+            <div>
+              {{#topics.length}}
+              <ul>
+                {{#topics}}
+                  <li>{{.}}</li>
+                {{/topics}}
+              </ul>
+              {{/topics.length}}
+            </div>
           </div>
         </div>
         {{ /training }}
@@ -79,35 +81,37 @@
     <script id='xp-template' type='x-tmpl-mustache'>
         <h1>Expérience</h1>
         {{ #xp }}
-        <div class='period'>{{ period.start }}&nbsp;&hyphen;&nbsp;{{ period.end }}</div>
         <div>
+          <p class='period'>{{ period.start }}&nbsp;&hyphen;&nbsp;{{ period.end }}</p>
           <div>
-            {{ company.name }},
-            {{ company.location.city }},
-            {{ company.location.country }}
-          </div>
-          <div>{{role}}</div>
-          <div>
-            {{ business }}
-            {{ #objective }}<i>({{ objective }})</i>{{ /objective }}
-          </div>
-          <div class='skills'>
-            {{#skills.length}}
-            <ul>
-              {{#skills}}
-                <li>{{.}}</li>
-              {{/skills}}
-            </ul>
-            {{/skills.length}}
-          </div>
-          <div>
-            {{#missions.length}}
-            <ul>
-              {{#missions}}
-                <li>{{.}}</li>
-              {{/missions}}
-            </ul>
-            {{/missions.length}}
+            <div>
+              {{ company.name }},
+              {{ company.location.city }},
+              {{ company.location.country }}
+            </div>
+            <div>{{role}}</div>
+            <div>
+              {{ business }}
+              {{ #objective }}<i>({{ objective }})</i>{{ /objective }}
+            </div>
+            <div class='skills'>
+              {{#skills.length}}
+              <ul>
+                {{#skills}}
+                  <li>{{.}}</li>
+                {{/skills}}
+              </ul>
+              {{/skills.length}}
+            </div>
+            <div>
+              {{#missions.length}}
+              <ul>
+                {{#missions}}
+                  <li>{{.}}</li>
+                {{/missions}}
+              </ul>
+              {{/missions.length}}
+            </div>
           </div>
         </div>
         {{ /xp }}
