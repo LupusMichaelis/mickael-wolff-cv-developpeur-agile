@@ -1,13 +1,5 @@
 assets.xp =
 	[
-		/*
-		{ 'period': { 'start': '', 'end': ''}
-		, 'company': {}
-		, 'role': {}
-		, 'missions': []
-		}
-	,
-	*/
 		{ 'period': { 'start': 'Mars 2015', 'end': 'Juin 2015'}
 		, 'company':
 			{ 'name': 'Rapid Ratings'
@@ -192,7 +184,6 @@ assets.xp =
 			, 'Pylons'
 			, 'JQuery'
 			]
-			/* XXX Translate XXX */
 		, 'missions':
 			[ 'développement d\'un site de prise de paris sportif (Django)'
 			, 'création de l\'interface d\'administration de gestion des contextes de jeu dans « Playboy Party Manager »'
