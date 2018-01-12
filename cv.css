@@ -110,6 +110,13 @@ div#header-canvas:after
 	padding-right: 1mm;
 }
 
+.address:before
+{
+	content: "\1f3e0";
+	font-family: symbola;
+	padding-right: 1mm;
+}
+
 .email:before
 {
 	content: "\1f4e7";
