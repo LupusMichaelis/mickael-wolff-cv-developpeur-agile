@@ -31,7 +31,7 @@
 				]
 			}
 		,
-			{ 'category': 'Méthodologies'
+			{ 'category': 'Méthodes'
 			, 'kind': sk.soft
 			, 'content':
 				[ { 'name': 'Scrum', 'level': sl.warrior }
@@ -80,7 +80,7 @@
 				]
 			}
 		,
-			{ 'category': 'C'
+			{ 'category': 'C++'
 			, 'kind': sk.technology
 			, 'content':
 				[ { 'name': 'C++14', 'level': sl.warrior }
@@ -144,7 +144,7 @@
 				]
 			}
 		,
-			{ 'category': 'Autres languages'
+			{ 'category': 'Autres langages'
 			, 'kind': sk.technology
 			, 'content':
 				[ { 'name': 'Perl 5', 'level': sl.rookie }

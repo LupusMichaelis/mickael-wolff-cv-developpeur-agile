@@ -302,7 +302,7 @@ assets.xp =
 				}
 			, 'business': 'Service d\'hébergement Internet'
 			}
-		, 'role': 'Techico-commercial'
+		, 'role': 'Technico–commercial'
 		, 'missions':
 			[ 'ventes des solutions d\'hébergement Internet aux professionnels'
 			]
@@ -340,7 +340,7 @@ assets.xp =
 				}
 			, 'business': 'Éditeur de logiciels de gestions pour la presse'
 			}
-		, 'role': 'Technicien de support, Formateur'
+		, 'role': "Formateur\nTechnicien de support"
 		, 'skills':
 			[
 			]
