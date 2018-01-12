@@ -1,3 +1,15 @@
+@media print
+{
+	div.chronology
+	, .sidebar .skills dl
+	{
+		orphans: 5;
+		widows: 5;
+		page-break-inside: avoid;
+		page-break-before: auto;
+		page-break-after: auto;
+	}
+}
 
 body
 {
