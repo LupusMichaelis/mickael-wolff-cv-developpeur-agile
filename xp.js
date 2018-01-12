@@ -15,7 +15,7 @@ assets.xp =
 				{ 'city': 'Dublin'
 				, 'country': 'Irlande'
 				}
-			, 'business': 'Notation de la santé financière d\'entités et mesure du risque'
+			, 'business': 'Notation de la santé financière de partenaires commerciaux et mesure du risque'
 			}
 		, 'role': 'Développeur'
 		, 'skills':
@@ -30,7 +30,8 @@ assets.xp =
 			, 'Vagrant'
 			, 'Git'
 			, 'GitHub'
-			, 'Jira Confluence'
+			, 'Jira'
+			, 'Confluence'
 			]
 
 		, 'missions':
@@ -210,7 +211,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Jan. 2010', 'end': 'Jan. 2010'}
+		{ 'period': { 'start': 'Janvier 2010', 'end': 'Janvier 2010'}
 		, 'company':
 			{ 'name': 'Equinoxe Media'
 			, 'location':
@@ -232,7 +233,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Mai 2009', 'end': 'Nov. 2009'}
+		{ 'period': { 'start': 'Mai 2009', 'end': 'Novembre 2009'}
 		, 'company':
 			{ 'name': 'Nexen Services (Alterway)'
 			, 'location':
@@ -284,7 +285,7 @@ assets.xp =
 		, 'role': 'Technicien de support'
 		, 'skills': []
 		, 'missions':
-			[ 'assistance dans l\'exploitation de serveurs (Microsoft Server OSes or Linux distributions)'
+			[ 'assistance dans l\'exploitation de serveurs (Microsoft Server OSes et distributions Linux)'
 			, 'gestion des abus en liaison avec les administrateurs système (spam, piratage)'
 			, 'conseil auprès des commerciaux pour qu\'ils conseillent la meilleure offre'
 			, 'documentation pour les utilisateurs et les collaborateurs'
@@ -292,7 +293,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Mars 2005', 'end': 'Mars 2005'}
+		{ 'period': { 'start': 'Mars 2005', 'end': ''}
 		, 'company':
 			{ 'name': 'Amen France'
 			, 'location':

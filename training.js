@@ -31,7 +31,7 @@ assets.training =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Juillet 2012', 'end': 'Juillet 2012'}
+		{ 'period': { 'start': '2012', 'end': '2012'}
 		, 'title': 'Formation à la création d’entreprise'
 		, 'organism':
 			{ 'name': 'IRFA Est'
@@ -75,11 +75,13 @@ assets.training =
 			, 'SQL'
 			, 'Korn Shell'
 			]
+/*
 		, 'degrees':
 			[
 				{ 'title': 'Analyste Programmeur en Informatique Appliquée à l\'Industrie'
 				, 'obtained': true
 				}
 			]
+*/
 		}
 	];
