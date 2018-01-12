@@ -3,12 +3,13 @@
 	margin: 7mm;
 }
 
-body {
+body
+{
 	width: 21cm;
 	margin: 7mm;
 	font-size: 12pt;
-	font-family:  Verdana, Arial, Helvetica, sans-serif;
-	text-align:   justify ;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: justify ;
 }
 
 div.main
