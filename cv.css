@@ -11,6 +11,25 @@ body {
 	text-align:   justify ;
 }
 
+div.main
+{
+	width: 17cm;
+	float: left;
+}
+
+div.sidebar h1
+{
+	text-align: right;
+}
+
+div.sidebar
+{
+	float: right;
+	width: 4cm;
+	margin: 0;
+}
+
+
 /* Header ****************************************************/
 div#header-canvas > :first-child > :first-child
 , div#header-canvas > :last-child > :first-child
@@ -60,16 +79,16 @@ div.chronology > div:last-child
 {
 	float: left;
 	box-sizing: border-box;
-	width: 17.1cm;
-	padding-left: 10mm;
+	width: 14cm;
+	padding: 0mm 8mm;
 }
 
 div.chronology > div:first-child
 {
+	float: left;
 	border: inherit;
 	margin: inherit;
-	width: 3.2cm;
-	float: left;
+	width: 3cm;
 	box-sizing: border-box;
 }
 
@@ -87,3 +106,34 @@ div.chronology.skills li:not(:last-child):after
 
 /* Skills ****************************************************/
 
+.sidebar .skills dl
+, .sidebar .skills dt
+, .sidebar .skills dd
+{
+	margin: 0;
+	padding: 1mm 0;
+	text-align: right;
+}
+
+.sidebar .skills dt
+{
+	font-variant: small-caps;
+	font-transform: bold;
+	font-size: 11pt;
+}
+
+.sidebar .skills dd
+{
+	font-size: 10pt;
+}
+
+.sidebar .skills ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar .skills li
+{
+	list-style: none;
+}

@@ -7,16 +7,11 @@
   </head>
   <body>
 
-    <div id='header-canvas'>
-    </div>
-
-    <div id='xp-canvas'>
-    </div>
-
-    <div id='training-canvas'>
-    </div>
-
-    <div id='skills-canvas'>
+    <div id='header-canvas'></div>
+    <div id='skill-canvas'></div>
+    <div class='main'>
+      <div id='xp-canvas'></div>
+      <div id='training-canvas'></div>
     </div>
 
     <script type='application/ecmascript'
@@ -119,6 +114,28 @@
           </div>
         </div>
         {{ /xp }}
+    </script>
+
+    <script id='skill-template' type='x-tmpl-mustache'>
+      <div class='sidebar'>
+        <h1>Skills</h1>
+        <div class='skills'>
+          {{#skill_set}}
+          <dl>
+            {{#.}}
+            <dt>{{category}}</dt>
+            <dd>
+              <ul>
+                {{#content}}
+                <li>{{name}}</li>
+                {{/content}}
+              </ul>
+            </dd>
+            {{/.}}
+          </dl>
+          {{/skill_set}}
+        </div>
+      </div>
     </script>
 
     <script type='application/ecmascript'>assets = {};</script>

@@ -7,6 +7,10 @@ $([
 	, 'target': '#xp-canvas'
 	}
 	,
+	{ 'template': '#skill-template'
+	, 'target': '#skill-canvas'
+	}
+	,
 	{ 'template': '#training-template'
 	, 'target': '#training-canvas'
 	}
