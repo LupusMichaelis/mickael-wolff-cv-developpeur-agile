@@ -98,6 +98,7 @@ div#header-canvas:after
 
 .name:before
 {
+	font-size: 15pt;
 	content: "\1f9d3";
 	font-family: symbola;
 	padding-right: 1mm;
