@@ -9,6 +9,12 @@
 		page-break-before: auto;
 		page-break-after: auto;
 	}
+
+	@page
+	{
+		margin: 7mm;
+		padding: 0;
+	}
 }
 
 body
@@ -24,6 +30,18 @@ div.main
 {
 	width: 17cm;
 	float: left;
+	padding: 15mm 0 5mm 0;
+}
+
+div.main > div
+{
+	padding: 0 0 30mm 0;
+}
+
+h1
+{
+	margin: 0;
+	padding: 0;
 }
 
 div.sidebar h1
@@ -36,6 +54,7 @@ div.sidebar
 	float: right;
 	width: 4cm;
 	margin: 0;
+	padding: 15mm 0 5mm 0;
 }
 
 
@@ -152,6 +171,7 @@ div.chronology .skills li
 {
 	display: inline;
 	font-style: italic;
+	font-size: 8pt;
 }
 
 div.chronology .skills li:not(:last-child):after

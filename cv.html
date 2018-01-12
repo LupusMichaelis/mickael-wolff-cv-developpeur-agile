@@ -8,7 +8,9 @@
   <body>
 
     <div id='header-canvas'></div>
-    <div id='skill-canvas'></div>
+    <div id='skill-canvas'
+         class='sidebar'
+         ></div>
     <div class='main'>
       <div id='xp-canvas'></div>
       <div id='training-canvas'></div>
@@ -117,25 +119,23 @@
     </script>
 
     <script id='skill-template' type='x-tmpl-mustache'>
-      <div class='sidebar'>
-        <div>
-          <h1>Skills</h1>
-          <div class='skills'>
-            {{#skill_set}}
-              {{#.}}
+      <div>
+        <h1>Skills</h1>
+        <div class='skills'>
+          {{#skill_set}}
+            {{#.}}
+          <div>
+            <h2>{{category}}</h2>
             <div>
-              <h2>{{category}}</h2>
-              <div>
-                <ul>
-                  {{#content}}
-                  <li>{{name}}</li>
-                  {{/content}}
-                </ul>
-              </div>
+              <ul>
+                {{#content}}
+                <li>{{name}}</li>
+                {{/content}}
+              </ul>
             </div>
-              {{/.}}
-            {{/skill_set}}
           </div>
+            {{/.}}
+          {{/skill_set}}
         </div>
       </div>
     </script>
