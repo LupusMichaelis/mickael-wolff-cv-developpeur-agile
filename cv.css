@@ -44,12 +44,18 @@ h1
 	padding: 0;
 }
 
-div.sidebar
+.sidebar .skills
 {
 	float: right;
-	width: 4cm;
-	margin: 0;
-	padding: 15mm 0 5mm 0;
+	width: 3.5cm;
+	margin: 5mm 0;
+	padding: 3mm 1mm 3mm 3mm;
+
+	border-left: 1pt dotted lightgray;
+	border-top: 1pt dotted lightgray;
+	border-bottom: 1pt dotted lightgray;
+	border-top-left-radius: 8pt;
+	border-bottom-left-radius: 8pt;
 }
 
 
@@ -266,7 +272,6 @@ div.chronology .diplomas li
 }
 
 /* Skills ****************************************************/
-
 .sidebar .skills div
 , .sidebar .skills h2
 {
@@ -279,7 +284,6 @@ div.chronology .diplomas li
 {
 	padding: 1mm 0;
 
-	/*font-variant: small-caps;*/
 	font-style: italic;
 	font-weight: bold;
 	font-size: 10pt;
