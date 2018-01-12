@@ -42,7 +42,7 @@ div#header-canvas > :first-child > :first-child
 div#header-canvas > :last-child > :first-child
 {
 	font-variant: small-caps;
-	font-transform: bold;
+	font-weight: bold;
 }
 
 #header-canvas a
@@ -141,7 +141,7 @@ div.chronology.skills li:not(:last-child):after
 .sidebar .skills dt
 {
 	font-variant: small-caps;
-	font-transform: bold;
+	font-weight: bold;
 	font-size: 11pt;
 }
 
