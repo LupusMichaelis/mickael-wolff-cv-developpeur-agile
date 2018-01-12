@@ -8,7 +8,7 @@ assets.xp =
 		}
 	,
 	*/
-		{ 'period': { 'start': 'Mars 2015', 'end': 'Mai 2015'}
+		{ 'period': { 'start': 'Mars 2015', 'end': 'Juin 2015'}
 		, 'company':
 			{ 'name': 'Rapid Ratings'
 			, 'location':
@@ -40,7 +40,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Juin 2013', 'end': 'Mars 2015'}
+		{ 'period': { 'start': 'Juillet 2013', 'end': 'Février 2015'}
 		, 'company':
 			{ 'name': ' 3V Transaction Services, Safe Charge'
 			, 'location':
@@ -82,7 +82,23 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Octobre 2012', 'end': 'Mai 2013'}
+		{ 'period': { 'start': 'Mai 2013', 'end': 'Juin 2013'}
+		, 'company':
+			{ 'name': 'Zerogrey'
+			, 'location':
+				{ 'city': 'Dublin'
+				, 'country': 'Irlande'
+				}
+			, 'business': 'Éditeur de sites de vente en ligne'
+			}
+		, 'role': 'Développeur'
+		, 'missions':
+			[ 'intégration de contenu'
+			, 'correction de bugs'
+			]
+		}
+	,
+		{ 'period': { 'start': 'Octobre 2012', 'end': 'Mars 2013'}
 		, 'company':
 			{ 'name': 'Dedsert'
 			, 'location':
@@ -109,7 +125,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Août 2011', 'end': 'Juin 2012'}
+		{ 'period': { 'start': 'Septembre 2011', 'end': 'Juin 2012'}
 		, 'company':
 			{ 'name': 'Ooblada'
 			, 'location':
@@ -158,7 +174,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Juin 2010', 'end': 'Février 2011'}
+		{ 'period': { 'start': 'Avril 2010', 'end': 'Février 2011'}
 		, 'company':
 			{ 'name': 'Jolt Online Gaming'
 			, 'location':
@@ -233,7 +249,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Mai 2009', 'end': 'Novembre 2009'}
+		{ 'period': { 'start': 'Mars 2009', 'end': 'Août 2009'}
 		, 'company':
 			{ 'name': 'Nexen Services (Alterway)'
 			, 'location':
@@ -308,7 +324,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Septembre 2004', 'end': 'Février 2005'}
+		{ 'period': { 'start': 'Juin 2004', 'end': 'Janvier 2005'}
 		, 'company':
 			{ 'name': 'LNA'
 			, 'location':
