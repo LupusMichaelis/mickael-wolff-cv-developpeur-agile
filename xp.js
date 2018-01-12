@@ -82,7 +82,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Oct 2012', 'end': 'Mai 2013'}
+		{ 'period': { 'start': 'Octobre 2012', 'end': 'Mai 2013'}
 		, 'company':
 			{ 'name': 'Dedsert'
 			, 'location':
@@ -254,7 +254,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': '2006', 'end': '2007'}
+		{ 'period': { 'start': 'Novembre 2006', 'end': 'Avril 2007'}
 		, 'company':
 			{ 'name': 'Armadillo'
 			, 'location':
@@ -273,7 +273,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Juin 2005', 'end': '2006'}
+		{ 'period': { 'start': 'Juin 2005', 'end': 'Septembre 2006'}
 		, 'company':
 			{ 'name': 'Amen France'
 			, 'location':
@@ -308,7 +308,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': '2004', 'end': '2005'}
+		{ 'period': { 'start': 'Septembre 2004', 'end': 'Février 2005'}
 		, 'company':
 			{ 'name': 'LNA'
 			, 'location':
@@ -331,7 +331,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': '2003', 'end': '2004'}
+		{ 'period': { 'start': 'Janvier 2003', 'end': 'Août 2004'}
 		, 'company':
 			{ 'name': 'Com&Com'
 			, 'location':

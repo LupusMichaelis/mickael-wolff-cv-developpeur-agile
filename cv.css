@@ -133,6 +133,11 @@ div#header-canvas:after
 
 /* Chronological events **************************************/
 
+.chronology .period
+{
+	font-size: 11pt;
+}
+
 div.chronology
 {
 	box-sizing: border-box;
