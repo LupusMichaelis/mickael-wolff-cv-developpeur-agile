@@ -122,7 +122,7 @@ div.chronology > div:last-child
 	float: left;
 	box-sizing: border-box;
 	width: 14cm;
-	padding: 0mm 8mm;
+	padding: 0mm 4mm;
 }
 
 div.chronology > div:first-child
@@ -156,6 +156,53 @@ div.chronology .skills li
 div.chronology .skills li:not(:last-child):after
 {
 	content: ', ';
+}
+
+/* Experience missions ***************************************/
+
+div.chronology .missions ul
+{
+	display: table;
+	list-style: none;
+	margin: 0;
+	padding: 1mm 0mm 2mm 3mm;
+}
+
+div.chronology .missions li
+{
+	display: table-row;
+	margin-left: 3mm;
+}
+
+div.chronology .missions li:before
+{
+	display: table-cell;
+	font-family: symbola;
+	content: '\1F4CB';
+	padding-right: 3mm;
+}
+
+/* Training topics *******************************************/
+div.chronology .topics ul
+{
+	display: table;
+	list-style: none;
+	margin: 0;
+	padding: 1mm 0mm 2mm 3mm;
+}
+
+div.chronology .topics li
+{
+	display: table-row;
+	margin-left: 3mm;
+}
+
+div.chronology .topics li:before
+{
+	display: table-cell;
+	content: '\1f4c2';
+	font-family: symbola;
+	padding-right: 3mm;
 }
 
 /* Skills ****************************************************/
