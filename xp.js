@@ -185,7 +185,7 @@ assets.xp =
 			]
 		}
 		,
-		{ 'period': { 'start': 'Fev. 2010', 'end': 'Avril 2010'}
+		{ 'period': { 'start': 'Fevrier 2010', 'end': 'Avril 2010'}
 		, 'company':
 			{ 'name': 'Global Electronic Business'
 			, 'location':
@@ -211,7 +211,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Janvier 2010', 'end': 'Janvier 2010'}
+		{ 'period': { 'start': 'Janvier 2010', 'end': ''}
 		, 'company':
 			{ 'name': 'Equinoxe Media'
 			, 'location':
@@ -225,7 +225,7 @@ assets.xp =
 			[ 'PHP5' 
 			, 'MySQL' 
 			, 'JQuery' 
-			, 'Memcache'
+			, 'Memcached'
 			]
 		, 'missions':
 			[ 'intégration de contenu publicitaire sur Abrutis.com'

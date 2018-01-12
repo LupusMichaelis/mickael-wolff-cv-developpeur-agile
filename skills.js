@@ -135,6 +135,8 @@
 			, 'content':
 				[ { 'name': 'Ecmascript 5.1', 'level': sl.warrior }
 				, { 'name': 'jQuery', 'level': sl.warrior }
+				, { 'name': 'jQuery UI', 'level': sl.warrior }
+				, { 'name': 'jQuery Mobile', 'level': sl.warrior }
 				, { 'name': 'Dojo', 'level': sl.warrior }
 				, { 'name': 'Prototype', 'level': sl.warrior }
 				, { 'name': 'Twitter\'s bootstrap', 'level': sl.warrior }

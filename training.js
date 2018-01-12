@@ -13,7 +13,7 @@ assets.training =
 		, 'topics':
 			[ 'matériel informatique'
 			, 'matériel réseau'
-			, 'installation et administration de systèmes et réseaux, particuliers ou professionnels, privatifs ou libres'
+			, 'support technique'
 			]
 		, 'degrees':
 			[
@@ -31,7 +31,7 @@ assets.training =
 			]
 		}
 	,
-		{ 'period': { 'start': '2012', 'end': '2012'}
+		{ 'period': { 'start': '2012', 'end': ''}
 		, 'title': 'Formation à la création d’entreprise'
 		, 'organism':
 			{ 'name': 'IRFA Est'
@@ -61,11 +61,12 @@ assets.training =
 		, 'title': 'Analyste Programmeur en Informatique Appliquée à l\'Industrie'
 		, 'objective': 'formation professionnelle'
 		, 'topics':
-			[ 'connaissance du matériel informatique'
+			[ 'architecture matériel'
 			, 'logique'
 			, 'algorithmique'
 			, 'UML'
-			, 'méthodologies historiques (cycle en V, waterfall)'
+			, 'cycle en V'
+			, 'waterfall'
 			, 'Unix IPC'
 			, 'sockets'
 			, 'MS Windows IPC'
