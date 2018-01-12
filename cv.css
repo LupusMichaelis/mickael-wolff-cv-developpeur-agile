@@ -134,13 +134,19 @@ div.chronology > div:first-child
 }
 
 /* Experience skills *****************************************/
+div.chronology .skills ul
+{
+	margin: 0;
+	padding: 1mm 0;
+}
+
 div.chronology .skills li
 {
 	display: inline;
 	font-style: italic;
 }
 
-div.chronology.skills li:not(:last-child):after
+div.chronology .skills li:not(:last-child):after
 {
 	content: ', ';
 }
