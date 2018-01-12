@@ -127,6 +127,12 @@ div.chronology > div:first-child
 	box-sizing: border-box;
 }
 
+.chronology div.role
+{
+	text-align: left;
+	font-weight: bold;
+}
+
 /* Experience skills *****************************************/
 div.chronology .skills li
 {
