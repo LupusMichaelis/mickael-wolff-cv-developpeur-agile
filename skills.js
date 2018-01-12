@@ -83,10 +83,11 @@
 			{ 'category': 'C++'
 			, 'kind': sk.technology
 			, 'content':
-				[ { 'name': 'C++14', 'level': sl.warrior }
+				[ { 'name': '11', 'level': sl.warrior }
+				, { 'name': '14', 'level': sl.warrior }
 				, { 'name': 'STL', 'level': sl.warrior }
-				, { 'name': 'CGreen', 'level': sl.warrior }
 				, { 'name': 'Boost', 'level': sl.warrior }
+				, { 'name': 'CGreen', 'level': sl.warrior }
 				]
 			}
 		,
@@ -97,8 +98,8 @@
 				, { 'name': '5.3', 'level': { 'user': sl.sensei, 'dev': sl.warrior, 'op': sl.sensei } }
 				, { 'name': 'Composer', 'level': sl.sensei }
 				, { 'name': 'XDebug', 'level': { 'user': sl.sensei, 'dev': sl.rookie, 'op': sl.sensei } }
-				, { 'name': 'Zend 1', 'level': sl.sensei }
-				, { 'name': 'Zend 2', 'level': sl.sensei }
+				, { 'name': 'Zend 1', 'level': sl.sensei }
+				, { 'name': 'Zend 2', 'level': sl.sensei }
 				, { 'name': 'CodeIgniter', 'level': sl.sensei }
 				, { 'name': 'Symfony', 'level': sl.sensei }
 				, { 'name': 'PEAR', 'level': sl.warrior }
@@ -149,7 +150,7 @@
 			{ 'category': 'Autres langages'
 			, 'kind': sk.technology
 			, 'content':
-				[ { 'name': 'Perl 5', 'level': sl.rookie }
+				[ { 'name': 'Perl 5', 'level': sl.rookie }
 				, { 'name': 'SQL', 'level': sl.warrior }
 				, { 'name': 'Pascal Delphi', 'level': sl.rookie }
 				, { 'name': 'GNU Assembleur', 'level': sl.rookie }
@@ -174,8 +175,8 @@
 				, { 'name': 'XShema', 'level': sl.rookie }
 				, { 'name': 'SVG', 'level': sl.rookie }
 				, { 'name': 'XML', 'level': sl.warrior }
-				, { 'name': 'HTML 4', 'level': sl.warrior }
-				, { 'name': 'HTML 5', 'level': sl.rookie }
+				, { 'name': 'HTML 4', 'level': sl.warrior }
+				, { 'name': 'HTML 5', 'level': sl.rookie }
 				, { 'name': 'CSS', 'level': sl.warrior }
 				, { 'name': 'Mustache', 'level': sl.sensei }
 				, { 'name': 'Jinja2', 'level': sl.warrior }
