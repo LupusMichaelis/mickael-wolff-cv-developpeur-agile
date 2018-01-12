@@ -28,6 +28,11 @@ div.sidebar
 
 
 /* Header ****************************************************/
+div#header-canvas
+{
+	float: none;
+}
+
 div#header-canvas > :first-child > :first-child
 , div#header-canvas > :last-child > :first-child
 {
@@ -55,6 +60,7 @@ div#header-canvas > div
 div#header-canvas > :last-child
 {
 	float: right;
+	text-align: right;
 }
 
 div#header-canvas:after
@@ -62,6 +68,26 @@ div#header-canvas:after
 	content: '';
 	clear: both;
 	display: block;
+}
+
+.phone:before
+{
+	content: "\260f";
+	font-family: symbola;
+	padding-right: 1mm;
+}
+
+.email:before
+{
+	content: "\1f4e7";
+	font-family: symbola;
+	padding-right: 1mm;
+}
+
+.web:after
+{
+	font-family: symbola;
+	padding-left: 1mm;
 }
 
 /* Chronological events **************************************/
