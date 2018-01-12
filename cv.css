@@ -82,6 +82,13 @@ div#header-canvas:after
 	display: block;
 }
 
+.name:before
+{
+	content: "\1f9d3";
+	font-family: symbola;
+	padding-right: 1mm;
+}
+
 .phone:before
 {
 	content: "\260f";
