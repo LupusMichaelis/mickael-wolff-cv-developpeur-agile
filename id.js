@@ -10,7 +10,7 @@ assets.id =
 	, 'profiles':
 		[
 			{ 'title': 'Projets personnels'
-			, 'link': 'http://projects.lupusmic.org/#en'
+			, 'link': 'http://projects.lupusmic.org/#fr'
 			}
 		,
 			{ 'title': 'GitHub'
