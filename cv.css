@@ -122,7 +122,7 @@ div.chronology > div:last-child
 	float: left;
 	box-sizing: border-box;
 	width: 14cm;
-	padding: 0mm 4mm;
+	padding: 1mm 4mm 2mm 4mm;
 }
 
 div.chronology > div:first-child
@@ -132,6 +132,7 @@ div.chronology > div:first-child
 	margin: inherit;
 	width: 3cm;
 	box-sizing: border-box;
+	padding: 1mm 1mm 2mm 0mm;
 }
 
 .chronology div.role
@@ -159,19 +160,12 @@ div.chronology .skills li:not(:last-child):after
 }
 
 /* Experience missions ***************************************/
-
 div.chronology .missions ul
 {
 	display: table;
 	list-style: none;
 	margin: 0;
 	padding: 1mm 0mm 2mm 3mm;
-}
-
-div.chronology .missions li
-{
-	display: table-row;
-	margin-left: 3mm;
 }
 
 div.chronology .missions li:before
@@ -182,27 +176,65 @@ div.chronology .missions li:before
 	padding-right: 3mm;
 }
 
-/* Training topics *******************************************/
-div.chronology .topics ul
-{
-	display: table;
-	list-style: none;
-	margin: 0;
-	padding: 1mm 0mm 2mm 3mm;
-}
-
-div.chronology .topics li
+div.chronology .missions li
 {
 	display: table-row;
 	margin-left: 3mm;
 }
 
+/* Training topics *******************************************/
+div.chronology .topics ul
+{
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 1mm 0mm 2mm 3mm;
+	box-sizing: border-box;
+}
+
+div.chronology .topics ul:after
+{
+	content: '';
+	clear: both;
+	box-sizing: border-box;
+}
+
 div.chronology .topics li:before
 {
-	display: table-cell;
+	float: left;
+	display: inline-block;
 	content: '\1f4c2';
 	font-family: symbola;
-	padding-right: 3mm;
+	padding-right: 1mm;
+}
+
+div.chronology .topics li
+{
+	float: left;
+	display: inline-block;
+	margin-left: 1mm;
+	width: 30%;
+}
+
+/* Training diplomas *****************************************/
+div.chronology .diplomas ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 1mm 0mm 2mm 3mm;
+	box-sizing: border-box;
+}
+
+div.chronology .diplomas li:before
+{
+	content: '\1f4dc';
+	font-family: symbola;
+	padding-right: 1mm;
+}
+
+div.chronology .diplomas li
+{
+	margin-left: 1mm;
 }
 
 /* Skills ****************************************************/
