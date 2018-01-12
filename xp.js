@@ -52,7 +52,7 @@ assets.xp =
 		, 'role': 'Développeur'
 		, 'skills':
 			['PHP5'
-			, 'Zend Frameword 1 and 2'
+			, 'Zend Frameword 1 & 2'
 			, 'Symfony 2'
 			, 'Phing'
 			, 'BeHat'
@@ -68,17 +68,17 @@ assets.xp =
 			, 'Jira'
 			]
 		, 'missions':
-			[ 'MoneyButton (StarsCard, OrangeCash, DNA Tapaka projects)'
+			[ 'MoneyButton (StarsCard, OrangeCash, DNA Tapaka)'
 			, 'développement d\'outils de déploiement en script shell utilisant PHP composer et les capacité de branchage de Subversion'
 			, 'développement de points d\'entrée de l\'API du projet StarsCard'
 			, 'développement du composant de communication du frontend avec l\'API dans l\'architecture MoneyButton'
-			, 'développement de fonctionnalités dans les frontends spécialisés'
-			, 'intégration de design graphiques'
-			, 'O2 Money: maintenance et implémentation de nouvelles fonctionnalités (bare PHP4)'
-			, 'VISA showcase: amélioration et développement de nouvelles fonctionnalités (Zend 1)'
+			, 'développement de fonctionnalités dans les frontends'
+			, 'intégration de designs graphiques'
+			, 'O2 Money : maintenance et implémentation de nouvelles fonctionnalités (PHP4 nu)'
+			, 'VISA showcase : amélioration et développement de nouvelles fonctionnalités (Zend 1)'
 			, 'portail du service client (Dojo)'
 			, 'écriture de tests comportementaux pour tester l\'API (BeHat)'
-			, 'amélioration et évolution des scripts d\'exportation des bases de données destinées au service de renseignement commercial (business intelligence)'
+			, 'amélioration et évolution des scripts d\'exportation des bases de données pour le service de renseignement commercial (business intelligence)'
 			]
 		}
 	,
@@ -101,11 +101,11 @@ assets.xp =
 			, 'Git'
 			]
 		, 'missions':
-			[ 'mise en place du squelette du frontend de Novaball.com‘s  à destination des intégrateurs'
+			[ 'mise en place du squelette du frontend de Novaball.com à destination des intégrateurs'
 			, 'développement du backend JSON REST'
-			, 'gestion de l\'envoie des SMS'
-			, 'gestion des paiement à travers l\'API du fournisseur Paypoint'
-			, 'gestion de la transmission de la liste des joueurs auprès de l\'assureur'
+			, 'gestion de l\'envoi des SMS'
+			, 'gestion des paiements à travers l\'API du fournisseur Paypoint'
+			, 'gestion de la transmission de la liste des parieurs auprès de l\'assureur'
 			]
 		}
 	,
@@ -116,7 +116,7 @@ assets.xp =
 				{ 'city': 'Paris'
 				, 'country': 'France'
 				}
-			, 'business': 'Éditeur de jeux pour Facebook'
+			, 'business': 'Éditeur de jeux pour la plate-forme Facebook'
 			}
 		, 'role': 'Développeur'
 		, 'skills':
@@ -179,9 +179,9 @@ assets.xp =
 			/* XXX Translate XXX */
 		, 'missions':
 			[ 'développement d\'un site de prise de paris sportif (Django)'
-			, 'writing a admin interface to manage player\'s realms in “Playboy Party Manager”'
-			, 'writing the game designer interface of “Championship Manager: Rivals”'
-			, 'benchmarking high load usage to ensure game scalability'
+			, 'création de l\'interface d\'administration de gestion des contextes de jeu dans « Playboy Party Manager »'
+			, 'création de l\'interface d\'ajustement du jeu « Championship Manager: Rivals » pour les game designers'
+			, 'mesure de la montée en charge des différents jeux pour assurer leur stabilité'
 			]
 		}
 		,
@@ -192,15 +192,15 @@ assets.xp =
 				{ 'city': 'Paris'
 				, 'country': 'France'
 				}
-			, 'business': 'Éditeur du site AdopteUnMec.com'
+			, 'business': 'Éditeur du site de rencontres AdopteUnMec.com'
 			}
 		, 'role': 'Développeur'
 		, 'skills':
-			[ 'PHP5' 
-			, 'MySQL' 
-			, 'JQuery' 
-			, 'Prototype' 
-			, 'Memcached' 
+			[ 'PHP5'
+			, 'MySQL'
+			, 'JQuery'
+			, 'Prototype'
+			, 'Memcached'
 			, 'Lighttpd'
 			]
 		, 'missions':
@@ -285,7 +285,7 @@ assets.xp =
 		, 'role': 'Technicien de support'
 		, 'skills': []
 		, 'missions':
-			[ 'assistance dans l\'exploitation de serveurs (Microsoft Server OSes et distributions Linux)'
+			[ 'assistance dans l\'exploitation de serveurs (Microsoft Server et distributions Linux)'
 			, 'gestion des abus en liaison avec les administrateurs système (spam, piratage)'
 			, 'conseil auprès des commerciaux pour qu\'ils conseillent la meilleure offre'
 			, 'documentation pour les utilisateurs et les collaborateurs'
@@ -293,7 +293,7 @@ assets.xp =
 			]
 		}
 	,
-		{ 'period': { 'start': 'Mars 2005', 'end': ''}
+		{ 'period': { 'start': 'Mars 2005', 'end': 'Juin 2005'}
 		, 'company':
 			{ 'name': 'Amen France'
 			, 'location':

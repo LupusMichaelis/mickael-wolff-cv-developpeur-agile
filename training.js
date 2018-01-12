@@ -61,7 +61,7 @@ assets.training =
 		, 'title': 'Analyste Programmeur en Informatique Appliquée à l\'Industrie'
 		, 'objective': 'formation professionnelle'
 		, 'topics':
-			[ 'architecture matériel'
+			[ 'architecture matérielle'
 			, 'logique'
 			, 'algorithmique'
 			, 'UML'
@@ -76,13 +76,11 @@ assets.training =
 			, 'SQL'
 			, 'Korn Shell'
 			]
-/*
 		, 'degrees':
 			[
-				{ 'title': 'Analyste Programmeur en Informatique Appliquée à l\'Industrie'
+				{ 'title': 'APIAI'
 				, 'obtained': true
 				}
 			]
-*/
 		}
 	];
