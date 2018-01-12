@@ -118,22 +118,24 @@
 
     <script id='skill-template' type='x-tmpl-mustache'>
       <div class='sidebar'>
-        <h1>Skills</h1>
-        <div class='skills'>
-          {{#skill_set}}
-          <dl>
-            {{#.}}
-            <dt>{{category}}</dt>
-            <dd>
-              <ul>
-                {{#content}}
-                <li>{{name}}</li>
-                {{/content}}
-              </ul>
-            </dd>
-            {{/.}}
-          </dl>
-          {{/skill_set}}
+        <div>
+          <h1>Skills</h1>
+          <div class='skills'>
+            {{#skill_set}}
+              {{#.}}
+            <div>
+              <h2>{{category}}</h2>
+              <div>
+                <ul>
+                  {{#content}}
+                  <li>{{name}}</li>
+                  {{/content}}
+                </ul>
+              </div>
+            </div>
+              {{/.}}
+            {{/skill_set}}
+          </div>
         </div>
       </div>
     </script>

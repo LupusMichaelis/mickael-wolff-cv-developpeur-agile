@@ -1,7 +1,7 @@
 @media print
 {
 	div.chronology
-	, .sidebar .skills dl
+	, .sidebar .skills > div
 	{
 		orphans: 5;
 		widows: 5;
@@ -239,25 +239,27 @@ div.chronology .diplomas li
 
 /* Skills ****************************************************/
 
-.sidebar .skills dl
-, .sidebar .skills dt
-, .sidebar .skills dd
+.sidebar .skills div
+, .sidebar .skills h2
 {
 	margin: 0;
-	padding: 1mm 0;
+	padding: 0;
 	text-align: right;
 }
 
-.sidebar .skills dt
+.sidebar .skills h2
 {
-	font-variant: small-caps;
+	padding: 1mm 0;
+
+	/*font-variant: small-caps;*/
+	font-style: italic;
 	font-weight: bold;
-	font-size: 11pt;
+	font-size: 10pt;
 }
 
-.sidebar .skills dd
+.sidebar .skills > div > div
 {
-	font-size: 10pt;
+	font-size: 9pt;
 }
 
 .sidebar .skills ul
