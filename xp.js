@@ -15,7 +15,7 @@ assets.xp =
 				{ 'city': 'Dublin'
 				, 'country': 'Irlande'
 				}
-			, 'business': 'Notation de la santé financière de partenaires commerciaux et mesure du risque'
+			, 'business': 'Notation et mesure du risque'
 			}
 		, 'role': 'Développeur'
 		, 'skills':
@@ -35,8 +35,8 @@ assets.xp =
 			]
 
 		, 'missions':
-			[ 'maintenance corrective de l\'application historique écrite en PHP'
-			, 'développement de microservices destinés à remplacer des portions de l\'application historique'
+			[ 'maintenance de l\'application historique écrite en PHP'
+			, 'développement de microservices remplaçant graduellement l\'application historique'
 			]
 		}
 	,
@@ -69,16 +69,16 @@ assets.xp =
 			]
 		, 'missions':
 			[ 'MoneyButton (StarsCard, OrangeCash, DNA Tapaka)'
-			, 'développement d\'outils de déploiement en script shell utilisant PHP composer et les capacité de branchage de Subversion'
+			, 'développement d\'outils de déploiement en script shell manipulant PHP composer et Subversion'
 			, 'développement de points d\'entrée de l\'API du projet StarsCard'
 			, 'développement du composant de communication du frontend avec l\'API dans l\'architecture MoneyButton'
 			, 'développement de fonctionnalités dans les frontends'
 			, 'intégration de designs graphiques'
-			, 'O2 Money : maintenance et implémentation de nouvelles fonctionnalités (PHP4 nu)'
-			, 'VISA showcase : amélioration et développement de nouvelles fonctionnalités (Zend 1)'
+			, 'O² Money : maintenance et développement (PHP4 nu)'
+			, 'VISA showcase : maintenance et développement (Zend 1)'
 			, 'portail du service client (Dojo)'
 			, 'écriture de tests comportementaux pour tester l\'API (BeHat)'
-			, 'amélioration et évolution des scripts d\'exportation des bases de données pour le service de renseignement commercial (business intelligence)'
+			, 'amélioration des scripts d\'exportation des données pour le service de renseignement commercial (business intelligence)'
 			]
 		}
 	,
@@ -93,19 +93,19 @@ assets.xp =
 			}
 		, 'role': 'Développeur'
 		, 'skills':
-			[ 'Python' 
-			, 'Bottle' 
-			, 'PHP5' 
-			, 'CodeIgniter' 
-			, 'MySQL' 
+			[ 'Python'
+			, 'Bottle'
+			, 'PHP5'
+			, 'CodeIgniter'
+			, 'MySQL'
 			, 'Git'
 			]
 		, 'missions':
-			[ 'mise en place du squelette du frontend de Novaball.com à destination des intégrateurs'
+			[ 'mise en place du squelette du frontend de Novaball.com pour les intégrateurs'
 			, 'développement du backend JSON REST'
 			, 'gestion de l\'envoi des SMS'
-			, 'gestion des paiements à travers l\'API du fournisseur Paypoint'
-			, 'gestion de la transmission de la liste des parieurs auprès de l\'assureur'
+			, 'gestion des paiements via l\'API Paypoint'
+			, 'gestion de la transmission de la liste des parieurs à l\'assureur'
 			]
 		}
 	,
@@ -120,14 +120,14 @@ assets.xp =
 			}
 		, 'role': 'Développeur'
 		, 'skills':
-			[ 'PHP5' 
-			, 'MySQL' 
-			, 'Memcached' 
+			[ 'PHP5'
+			, 'MySQL'
+			, 'Memcached'
 			, 'Javascript'
 			]
 		, 'missions':
 			[ 'améliorations du backend (Treasure Madness, SocialPeopleZ)'
-			, 'Graph API : adaptation des jeux aux nouvelles politiques de gestion des données privées en utilisant les « real time updates »'
+			, 'Graph API : adaptation des jeux aux nouvelles politiques des données privées en utilisant les « real time updates »'
 			, 'OpenGraph : intégration des OG objects à Treasure Madness (ticker events pour les achievements) et SocialPeopleZ (scoring)'
 			, 'refactoring du code historique'
 			, 'amélioration de la couverture des tests unitaires (framework maison)'
@@ -145,10 +145,10 @@ assets.xp =
 			}
 		, 'role': 'Développeur'
 		, 'skills':
-			[ 'PHP5' 
-			, 'MySQL' 
-			, 'Zend' 
-			, 'Framework' 
+			[ 'PHP5'
+			, 'MySQL'
+			, 'Zend'
+			, 'Framework'
 			, 'jQuery'
 			]
 		, 'missions':
@@ -169,11 +169,11 @@ assets.xp =
 			}
 		, 'role': 'Développeur'
 		, 'skills':
-			[ 'MongoDB' 
-			, 'Cassandra' 
-			, 'Memcached' 
-			, 'MySQL' 
-			, 'Pylons' 
+			[ 'MongoDB'
+			, 'Cassandra'
+			, 'Memcached'
+			, 'MySQL'
+			, 'Pylons'
 			, 'JQuery'
 			]
 			/* XXX Translate XXX */
@@ -218,7 +218,7 @@ assets.xp =
 				{ 'city': 'Paris'
 				, 'country': 'France'
 				}
-			, 'business': 'Éditeur de sites de divertissement (porno, gossip, dating, buzz média)'
+			, 'business': 'Éditeur de sites de divertissement (porno, gossip, rencontre, buzz média)'
 			}
 		, 'role': 'Développeur'
 		, 'skills':
@@ -249,7 +249,7 @@ assets.xp =
 			]
 		, 'missions':
 			[ 'développement de maintenant PHP4/MySQL4'
-			, 'étude de d\'impact et de faisabilité de la migration du SI de PHP4 vers PHP5'
+			, 'étude de d\'impact et de la migration du SI de PHP4 vers PHP5'
 			, 'formateur PHP pour Anaska (Alterway Training) d\'une équipe de 10 développeurs'
 			]
 		}
@@ -285,9 +285,9 @@ assets.xp =
 		, 'role': 'Technicien de support'
 		, 'skills': []
 		, 'missions':
-			[ 'assistance dans l\'exploitation de serveurs (Microsoft Server et distributions Linux)'
+			[ 'assistance dans l\'exploitation de serveurs (Microsoft Server et Linux)'
 			, 'gestion des abus en liaison avec les administrateurs système (spam, piratage)'
-			, 'conseil auprès des commerciaux pour qu\'ils conseillent la meilleure offre'
+			, 'conseil technique auprès du service commercial'
 			, 'documentation pour les utilisateurs et les collaborateurs'
 			, 'formation des nouveaux techniciens aux procédures, produits et outils'
 			]
@@ -304,7 +304,7 @@ assets.xp =
 			}
 		, 'role': 'Technico–commercial'
 		, 'missions':
-			[ 'ventes des solutions d\'hébergement Internet aux professionnels'
+			[ 'vente aux professionnels'
 			]
 		}
 	,
