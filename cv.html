@@ -8,20 +8,20 @@
   <body>
 
     <div id='header-canvas'></div>
-    <div id='skill-canvas'
-         class='sidebar'
-         ></div>
-    <div class='main'>
-      <div id='xp-canvas'></div>
-      <div id='training-canvas'></div>
+    <div class='sidebar'>
+        <h1>Compétences</h1>
+        <div id='skill-canvas'></div>
     </div>
-
-    <script type='application/ecmascript'
-            src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'
-            ></script>
-    <script type='application/ecmascript'
-            src='https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js'
-            ></script>
+    <div class='main'>
+      <div>
+        <h1>Expérience</h1>
+        <div id='xp-canvas'></div>
+      </div>
+      <div>
+        <h1>Formation</h1>
+        <div id='training-canvas'></div>
+      </div>
+    </div>
 
     <script id='header-template' type='x-tmpl-mustache'>
       <div>
@@ -39,7 +39,6 @@
     </script>
 
     <script id='training-template' type='x-tmpl-mustache'>
-        <h1>Formation</h1>
         {{ #training }}
         <div class='chronology'>
           <div>
@@ -79,7 +78,6 @@
     </script>
 
     <script id='xp-template' type='x-tmpl-mustache'>
-        <h1>Expérience</h1>
         {{ #xp }}
         <div class='chronology'>
           <div>
@@ -137,6 +135,14 @@
           {{/skill_set}}
         </div>
     </script>
+
+    <script type='application/ecmascript'
+            src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'
+            ></script>
+    <script type='application/ecmascript'
+            src='https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js'
+            ></script>
+
 
     <script type='application/ecmascript'>assets = {};</script>
 

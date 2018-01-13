@@ -44,6 +44,11 @@ h1
 	padding: 0;
 }
 
+.sidebar h1
+{
+	display: none;
+}
+
 .sidebar .skills
 {
 	float: right;
