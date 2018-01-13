@@ -1,0 +1,107 @@
+@media print
+{
+	div.main > div
+	{
+		page-break-after: always;
+	}
+}
+
+div.main
+{
+	float: none;
+	padding: 5mm 0 5mm 0;
+}
+
+div.main > div
+{
+	padding: 0;
+}
+
+div.main > div > div
+{
+	padding: 6mm 0;
+}
+
+.main > div
+{
+	column-count: 2;
+	column-gap: 1pt;
+}
+
+.main > div > h1
+{
+	column-span: all;
+}
+
+.missions
+{
+	display:none;
+}
+
+div.chronology > div:last-child
+{
+	width: 7.3cm;
+}
+
+#training-canvas .chronology > :first-child
+{
+	width: 1cm;
+}
+
+#training-canvas .chronology > :last-child
+{
+	width: 9.3cm;
+}
+
+div.chronology .topics li
+{
+	width: 47%;
+}
+
+/**/
+body
+{
+	display: table;
+}
+
+div.main
+{
+	width: 100%;
+}
+
+.sidebar
+{
+	display: table-footer-group;
+}
+
+.sidebar h1
+{
+	display: block;
+}
+
+.sidebar .skills
+{
+	float: none;
+	width: auto;
+	border-radius: 8pt;
+	border: 1pt dotted lightgray;
+}
+
+.sidebar .skills:after
+{
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.sidebar .skills
+{
+	column-count: 6;
+}
+
+.sidebar .skills div
+, .sidebar .skills h2
+{
+	text-align: left;
+}
+
