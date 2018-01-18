@@ -137,10 +137,10 @@ div.chronology
 
 div.chronology > div:last-child
 {
-	float: left;
 	box-sizing: border-box;
 	width: 14cm;
 	padding: 1mm 4mm 2mm 4mm;
+	margin-left: 3cm;
 }
 
 div.chronology > div:first-child
