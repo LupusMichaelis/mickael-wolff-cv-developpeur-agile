@@ -44,26 +44,6 @@ h1
 	padding: 0;
 }
 
-.sidebar h1
-{
-	display: none;
-}
-
-.sidebar .skills
-{
-	float: right;
-	width: 3.5cm;
-	margin: 5mm 0;
-	padding: 3mm 1mm 3mm 3mm;
-
-	border-left: 1pt dotted lightgray;
-	border-top: 1pt dotted lightgray;
-	border-bottom: 1pt dotted lightgray;
-	border-top-left-radius: 8pt;
-	border-bottom-left-radius: 8pt;
-}
-
-
 /* Header ****************************************************/
 div#header-canvas
 {
@@ -277,6 +257,25 @@ div.chronology .diplomas li
 }
 
 /* Skills ****************************************************/
+.sidebar h1
+{
+	display: none;
+}
+
+.sidebar .skills
+{
+	float: right;
+	width: 3.5cm;
+	margin: 5mm 0;
+	padding: 3mm 1mm 3mm 3mm;
+
+	border-left: 1pt dotted lightgray;
+	border-top: 1pt dotted lightgray;
+	border-bottom: 1pt dotted lightgray;
+	border-top-left-radius: 8pt;
+	border-bottom-left-radius: 8pt;
+}
+
 .sidebar .skills div
 , .sidebar .skills h2
 {
