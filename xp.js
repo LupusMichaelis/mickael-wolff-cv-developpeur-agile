@@ -1,5 +1,25 @@
 assets.xp =
 	[
+		{ 'period': { 'start': 'January 2018', 'end': 'April 2018'}
+		, 'company':
+			{ 'name': 'Telmat Industries'
+			, 'location':
+				{ 'city': 'Soultz Haut-Rhin'
+				, 'country': 'France'
+				}
+			, 'business': 'Network appliances'
+			}
+		, 'role': 'Développeur'
+		, 'skills':
+			[ 'PHP5'
+			, 'OAuth'
+			]
+
+		, 'missions':
+			[ 'intégration générique d\'APIs externes'
+			]
+		}
+	,
 		{ 'period': { 'start': 'Mars 2015', 'end': 'Juin 2015'}
 		, 'company':
 			{ 'name': 'Rapid Ratings'
