@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family: symbola;
+    src: url('Symbola_hint.ttf'); /* https://tracker.debian.org/pkg/ttf-ancient-fonts */
+}
+
 @media print
 {
 	div.chronology
