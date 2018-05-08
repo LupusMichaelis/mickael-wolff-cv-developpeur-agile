@@ -1,10 +1,10 @@
 assets.xp =
 	[
-		{ 'period': { 'start': 'January 2018', 'end': 'April 2018'}
+		{ 'period': { 'start': 'Janvier 2018', 'end': 'Avril 2018'}
 		, 'company':
 			{ 'name': 'Telmat Industries'
 			, 'location':
-				{ 'city': 'Soultz Haut-Rhin'
+				{ 'city': 'Soultz Haut–Rhin'
 				, 'country': 'France'
 				}
 			, 'business': 'Network appliances'
@@ -144,7 +144,7 @@ assets.xp =
 				{ 'city': 'Paris'
 				, 'country': 'France'
 				}
-			, 'business': 'Éditeur de jeux pour la plate-forme Facebook'
+			, 'business': 'Éditeur de jeux pour la plate–forme Facebook'
 			}
 		, 'role': 'Développeur'
 		, 'skills':
@@ -304,7 +304,7 @@ assets.xp =
 		, 'company':
 			{ 'name': 'Amen France'
 			, 'location':
-				{ 'city': 'Levallois-Perret'
+				{ 'city': 'Levallois–Perret'
 				, 'country': 'France'
 				}
 			, 'business': 'Service d\'hébergement Internet'
@@ -324,8 +324,8 @@ assets.xp =
 		, 'company':
 			{ 'name': 'Amen France'
 			, 'location':
-				{ 'city': 'Levallois'
-				, 'country': 'Irlande'
+				{ 'city': 'Levallois–Perret'
+				, 'country': 'France'
 				}
 			, 'business': 'Service d\'hébergement Internet'
 			}
@@ -339,7 +339,7 @@ assets.xp =
 		, 'company':
 			{ 'name': 'LNA'
 			, 'location':
-				{ 'city': 'Boulogne-Billancourt'
+				{ 'city': 'Boulogne–Billancourt'
 				, 'country': 'France'
 				}
 			, 'business': 'Vente et location de matériel informatique aux professionnels'
@@ -362,7 +362,7 @@ assets.xp =
 		, 'company':
 			{ 'name': 'Com&Com'
 			, 'location':
-				{ 'city': 'Le Plessis-Robinson'
+				{ 'city': 'Le Plessis–Robinson'
 				, 'country': 'France'
 				}
 			, 'business': 'Éditeur de logiciels de gestions pour la presse'
