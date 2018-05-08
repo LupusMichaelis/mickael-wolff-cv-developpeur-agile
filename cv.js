@@ -22,3 +22,9 @@ $([
 		$(element.target).html(rendered);
 	}
 );
+
+document.title = 'CV de ' + assets.id.name + ', ' + assets.id.role + '.';
+$(document.head)
+	.append($('<meta>', { name: 'description', 'content': 'CV'}))
+	.append($('<meta>', { name: 'author', 'content': assets.id.name}))
+	;
