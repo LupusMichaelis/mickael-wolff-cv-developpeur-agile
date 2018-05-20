@@ -296,7 +296,7 @@ assets.xp =
 			, 'AJAX'
 			]
 		, 'missions':
-			[ 'adaptation de “Armadillo Média Web” au Web 2.0'
+			[ 'adaptation de « Armadillo Média Web » au Web 2.0'
 			]
 		}
 	,
