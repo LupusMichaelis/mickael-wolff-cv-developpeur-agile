@@ -54,7 +54,7 @@ assets.xp =
 	,
 		{ 'period': { 'start': 'Juillet 2013', 'end': 'Février 2015'}
 		, 'company':
-			{ 'name': ' 3V Transaction Services, Safe Charge'
+			{ 'name': '3V Transaction Services, Safe Charge'
 			, 'location':
 				{ 'city': 'Dublin'
 				, 'country': 'Irlande'

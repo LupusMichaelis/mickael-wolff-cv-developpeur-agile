@@ -3,7 +3,7 @@ assets.id =
 	, 'role': 'Développeur agile'
 	, 'phone': '+33 7 67 16 96 86'
 	, 'e-mail': 'mickael+cv@lupusmic.org'
-	, 'localisation':
+	, 'location':
 		{ 'city': 'Rouffach'
 		, 'country': 'France'
 		}
