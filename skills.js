@@ -150,7 +150,9 @@
 			{ 'category': 'Autres langages'
 			, 'kind': sk.technology
 			, 'content':
-				[ { 'name': 'Perl 5', 'level': 'rookie' }
+				[ { 'name': 'Elm', 'level': 'rookie' }
+				, { 'name': 'Haskell', 'level': 'rookie' }
+				, { 'name': 'Perl 5', 'level': 'rookie' }
 				, { 'name': 'SQL', 'level': 'warrior' }
 				, { 'name': 'Pascal Delphi', 'level': 'rookie' }
 				, { 'name': 'GNU Assembleur', 'level': 'rookie' }
@@ -178,6 +180,8 @@
 				, { 'name': 'HTML 4', 'level': 'warrior' }
 				, { 'name': 'HTML 5', 'level': 'rookie' }
 				, { 'name': 'CSS', 'level': 'warrior' }
+				, { 'name': 'SCSS', 'level': 'warrior' }
+				, { 'name': 'Bulma', 'level': 'warrior' }
 				, { 'name': 'Mustache', 'level': 'sensei' }
 				, { 'name': 'Jinja2', 'level': 'warrior' }
 				, { 'name': 'YAML', 'level': 'warrior' }
