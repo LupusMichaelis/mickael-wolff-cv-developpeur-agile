@@ -1,6 +1,31 @@
 assets.xp =
 	[
-		{ 'period': { 'start': 'Janvier 2018', 'end': 'Avril 2018'}
+		{ 'period': { 'start': 'Janvier 2019'}
+		, 'company':
+			{ 'name': 'Elpev'
+			, 'location':
+				{ 'city': 'Wittelsheim'
+				, 'country': 'France'
+				}
+			, 'business': 'Communication'
+			}
+		, 'role': 'Développeur'
+		, 'skills':
+			[ 'Elm'
+			, 'Sass'
+			, 'SCSS'
+			, 'Bulma'
+			, 'Go'
+			, 'Git'
+			, 'Docker'
+			]
+
+		, 'missions':
+			[ 'Intégration graphique sur le front end de l\'application métier « Px² »'
+			]
+		}
+	,
+		{ 'period': { 'start': 'Janvier 2018', 'end': 'Mai 2018'}
 		, 'company':
 			{ 'name': 'Telmat Industries'
 			, 'location':
