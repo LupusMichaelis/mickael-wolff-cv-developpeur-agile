@@ -116,7 +116,7 @@ assets.xp =
 			, 'développement de fonctionnalités dans les frontends'
 			, 'intégration de designs graphiques'
 			, 'O² Money : maintenance et développement (PHP4 nu)'
-			, 'VISA showcase : maintenance et développement (Zend 1)'
+			, 'VISA showcase : maintenance et développement (Zend 1)'
 			, 'portail du service client (Dojo)'
 			, 'écriture de tests comportementaux pour tester l\'API (BeHat)'
 			, 'amélioration des scripts d\'exportation des données pour le service de renseignement commercial (business intelligence)'
