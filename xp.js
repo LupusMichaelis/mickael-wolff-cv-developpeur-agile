@@ -16,12 +16,16 @@ assets.xp =
 			, 'SCSS'
 			, 'Bulma'
 			, 'Go'
+			, 'LUA'
 			, 'Git'
 			, 'Docker'
+			, 'Selenium'
 			]
 
 		, 'missions':
 			[ 'Intégration graphique sur le front end de l\'application métier « Px² »'
+			, 'Tests fonctionnels'
+			, 'Support à l\'intégration de développeurs externe'
 			]
 		}
 	,

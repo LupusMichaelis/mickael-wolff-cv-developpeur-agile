@@ -152,6 +152,8 @@
 			, 'content':
 				[ { 'name': 'Elm', 'level': 'rookie' }
 				, { 'name': 'Haskell', 'level': 'rookie' }
+				, { 'name': 'LUA', 'level': 'rookie' }
+				, { 'name': 'Go', 'level': 'rookie' }
 				, { 'name': 'Perl 5', 'level': 'rookie' }
 				, { 'name': 'SQL', 'level': 'warrior' }
 				, { 'name': 'Pascal Delphi', 'level': 'rookie' }
@@ -167,6 +169,7 @@
 			, 'content':
 				[ { 'name': 'JSON', 'level': 'wizard' }
 				, { 'name': 'Markdown', 'level': 'warrior' }
+				, { 'name': 'Restructured', 'level': 'rookie' }
 				, { 'name': 'Javadoc', 'level': 'warrior' }
 				, { 'name': 'Swagger', 'level': 'rookie' }
 				, { 'name': 'Latex', 'level': 'warrior' }
