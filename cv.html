@@ -14,18 +14,18 @@
 
     <div id='header-canvas'></div>
     <div class='sidebar'>
-        <h1>Compétences</h1>
-        <div id='skill-canvas'></div>
+      <h1>Compétences</h1>
+      <div id='skill-canvas'></div>
     </div>
     <div class='main'>
-      <div>
+      <section>
         <h1>Expérience</h1>
         <div id='xp-canvas'></div>
-      </div>
-      <div>
+      </section>
+      <section>
         <h1>Formation</h1>
         <div id='training-canvas'></div>
-      </div>
+      </section>
     </div>
 
     <script id='header-template' type='x-tmpl-mustache'>
@@ -90,11 +90,11 @@
             <div class='period'>{{ period.start }}<br/>{{ period.end }}</div>
           </div>
           <div>
-            <div>
+            <h2>
               <b>{{ company.name }}</b>,
               {{ company.location.city }}{{# company.location.country }},
               {{ company.location.country }}{{/ company.location.country }}
-            </div>
+            </h2>
             <div>{{company.business}}</div>
             <div>
               {{ #objective }}<i>({{ objective }})</i>{{ /objective }}

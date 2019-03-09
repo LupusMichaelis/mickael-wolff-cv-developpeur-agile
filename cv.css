@@ -9,8 +9,8 @@
 	div.chronology
 	, .sidebar .skills > div
 	{
-		orphans: 5;
-		widows: 5;
+		orphans: 3;
+		widows: 3;
 		page-break-inside: avoid;
 		page-break-before: auto;
 		page-break-after: auto;
@@ -47,6 +47,7 @@ div.main > div
 h1
 {
 	margin: 0;
+	margin-bottom: 3mm;
 	padding: 0;
 }
 
@@ -139,6 +140,20 @@ div.chronology
 {
 	box-sizing: border-box;
 	clear: both;
+}
+
+div.chronology h2
+{
+	font-weight: normal;
+	font-size: inherit;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 2mm;
+}
+
+div.chronology h2 b
+{
+	font-size: 1.1em;
 }
 
 div.chronology > div:last-child
