@@ -20,8 +20,8 @@ div.chronology
 	orphans: 3;
 	widows: 3;
 	page-break-inside: avoid;
-	page-break-before: auto;
-	page-break-after: auto;
+	page-break-before: avoid;
+	page-break-after: avoid;
 }
 
 body
