@@ -41,6 +41,6 @@ $([
 		var template = $(element.template).html();
 		Mustache.parse(template);
 		var rendered = Mustache.render(template, assets);
-		$(element.target).html(rendered);
+		$(element.target).replaceWith(rendered);
 	}
 );

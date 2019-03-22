@@ -13,18 +13,24 @@
   <body>
 
     <div id='header-canvas'></div>
-    <div class='sidebar'>
-      <h1>Compétences</h1>
-      <div id='skill-canvas'></div>
-    </div>
-    <div class='main'>
-      <section>
-        <h1>Expérience</h1>
-        <div id='xp-canvas'></div>
+      <section class='sidebar'>
+        <h1>Compétences</h1>
+        <div>
+          <div id='skill-canvas'></div>
+        </div>
       </section>
-      <section>
+    <div class='main'>
+      <section id='xp'>
+        <h1>Expérience</h1>
+        <div>
+          <div id='xp-canvas'></div>
+        </div>
+      </section>
+      <section id='training'>
         <h1>Formation</h1>
-        <div id='training-canvas'></div>
+        <div>
+          <div id='training-canvas'></div>
+        </div>
       </section>
     </div>
 
@@ -47,7 +53,7 @@
 
     <script id='training-template' type='x-tmpl-mustache'>
         {{ #training }}
-        <div class='chronology'>
+        <div class='chronology training'>
           <div>
             <div class='period'>{{ period.start }}<br />{{ period.end }}</div>
           </div>

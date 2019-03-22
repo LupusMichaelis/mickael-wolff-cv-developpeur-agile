@@ -33,15 +33,15 @@ h1
 
 div.chronology > div:last-child
 {
-	width: 7.3cm;
+	width: 9.3cm;
 }
 
-#training-canvas .chronology > :first-child
+.training.chronology > :first-child
 {
 	width: 1cm;
 }
 
-#training-canvas .chronology > :last-child
+.training.chronology > :last-child
 {
 	width: 9.3cm;
 }
