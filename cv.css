@@ -6,23 +6,24 @@
 
 @media print
 {
-	div.chronology
-	, .sidebar .skills > div
-	, .topics ul
-	{
-		orphans: 3;
-		widows: 3;
-		page-break-inside: avoid;
-		page-break-before: auto;
-		page-break-after: auto;
-	}
-
 	@page
 	{
 		margin: 7mm;
 		padding: 0;
 	}
 }
+
+div.chronology
+, .sidebar .skills > div
+, .topics ul
+{
+	orphans: 3;
+	widows: 3;
+	page-break-inside: avoid;
+	page-break-before: auto;
+	page-break-after: auto;
+}
+
 
 body
 {
