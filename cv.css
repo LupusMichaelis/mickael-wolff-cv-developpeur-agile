@@ -8,6 +8,7 @@
 {
 	div.chronology
 	, .sidebar .skills > div
+	, .topics ul
 	{
 		orphans: 3;
 		widows: 3;
