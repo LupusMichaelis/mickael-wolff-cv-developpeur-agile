@@ -29,18 +29,20 @@
     </div>
 
     <script id='header-template' type='x-tmpl-mustache'>
-      <div>
-        <div class='name'>{{ id.name }}</div>
-        <div class='email'>{{ id.e-mail }}</div>
-        <div class='phone'>{{ id.phone }}</div>
-        <div class='address'>{{ id.location.city }}, {{ id.location.country }}</div>
-      </div>
-      <div>
-        <div>{{ id.role }}</div>
-        {{ #id.profiles }}
-        <div class='web'><a href='{{ link }}'>{{ link }}</a></div>
-        {{ /id.profiles }}
-      </div>
+      <header>
+        <div>
+          <div class='name'>{{ id.name }}</div>
+          <div class='email'>{{ id.e-mail }}</div>
+          <div class='phone'>{{ id.phone }}</div>
+          <div class='address'>{{ id.location.city }}, {{ id.location.country }}</div>
+        </div>
+        <div>
+          <div>{{ id.role }}</div>
+          {{ #id.profiles }}
+          <div class='web'><a href='{{ link }}'>{{ link }}</a></div>
+          {{ /id.profiles }}
+        </div>
+      </header>
     </script>
 
     <script id='training-template' type='x-tmpl-mustache'>

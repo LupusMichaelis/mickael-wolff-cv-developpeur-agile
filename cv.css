@@ -53,42 +53,42 @@ h1
 }
 
 /* Header ****************************************************/
-div#header-canvas
+header
 {
 	float: none;
 }
 
-div#header-canvas > :first-child > :first-child
-, div#header-canvas > :last-child > :first-child
+header > :first-child > :first-child
+, header > :last-child > :first-child
 {
 	font-size: 25pt;
 }
 
-div#header-canvas > :last-child > :first-child
+header > :last-child > :first-child
 {
 	font-variant: small-caps;
 	font-weight: bold;
 }
 
-#header-canvas a
+header a
 {
 	color: inherit;
 	text-decoration: none;
 }
 
-div#header-canvas > div
+header > div
 {
 	font-size: 15pt;
 	float: left;
 }
 
-div#header-canvas > :last-child
+header > :last-child
 {
 	float: right;
 	text-align: right;
 }
 
-div#header-canvas:after
+header:after
 {
 	content: '';
 	clear: both;
