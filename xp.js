@@ -18,15 +18,19 @@ assets.xp =
 			, 'Bulma'
 			, 'Go'
 			, 'LUA'
+			, 'PHP'
+			, 'Symfony'
 			, 'Git'
 			, 'Docker'
 			, 'Selenium'
 			]
 
 		, 'missions':
-			[ 'Intégration graphique sur le front end de l\'application métier « Px² »'
-			, 'Tests fonctionnels'
-			, 'Support à l\'intégration de développeurs externe'
+			[ 'maintenance de « Proximity » (PHP5)'
+			, 'mise en place de tests unitaires (PHPUnit)'
+			, 'dockerization de « Proximity »'
+			, 'intégration graphique sur le front end de « Px² » (Elm, SCSS, Bulma)'
+			, 'tests fonctionnels (Selenium)'
 			]
 		}
 	,
