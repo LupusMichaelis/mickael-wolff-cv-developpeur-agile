@@ -1,6 +1,7 @@
 assets.xp =
 	[
 		{ 'period': { 'start': 'Janvier 2019'}
+		, 'starred': true
 		, 'company':
 			{ 'name': 'Elpev'
 			, 'location':
@@ -30,6 +31,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Janvier 2018', 'end': 'Mai 2018'}
+		, 'starred': true
 		, 'company':
 			{ 'name': 'Telmat Industries'
 			, 'location':
@@ -50,6 +52,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Mars 2015', 'end': 'Juin 2015'}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'Rapid Ratings'
 			, 'location':
@@ -76,12 +79,13 @@ assets.xp =
 			]
 
 		, 'missions':
-			[ 'maintenance de l\'application historique écrite en PHP'
-			, 'développement de microservices remplaçant graduellement l\'application historique'
+			[ 'maintenance de l\'application historique (PHP)'
+			, 'développement de microservices pour remplacer l\'application historique'
 			]
 		}
 	,
 		{ 'period': { 'start': 'Juillet 2013', 'end': 'Février 2015'}
+		, 'starred': true
 		, 'company':
 			{ 'name': '3V Transaction Services, Safe Charge'
 			, 'location':
@@ -124,6 +128,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Mai 2013', 'end': 'Juin 2013'}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'Zerogrey'
 			, 'location':
@@ -140,6 +145,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Octobre 2012', 'end': 'Mars 2013'}
+		, 'starred': true
 		, 'company':
 			{ 'name': 'Dedsert'
 			, 'location':
@@ -167,6 +173,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Septembre 2011', 'end': 'Juin 2012'}
+		, 'starred': true
 		, 'company':
 			{ 'name': 'Ooblada'
 			, 'location':
@@ -192,6 +199,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Mai 2011', 'end': 'Août 2011'}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'Profeleve.com'
 			, 'location':
@@ -216,6 +224,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Avril 2010', 'end': 'Février 2011'}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'Jolt Online Gaming'
 			, 'location':
@@ -242,6 +251,7 @@ assets.xp =
 		}
 		,
 		{ 'period': { 'start': 'Fevrier 2010', 'end': 'Avril 2010'}
+		, 'starred': true
 		, 'company':
 			{ 'name': 'Global Electronic Business'
 			, 'location':
@@ -268,6 +278,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Janvier 2010', 'end': ''}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'Equinoxe Media'
 			, 'location':
@@ -290,6 +301,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Mars 2009', 'end': 'Août 2009'}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'Nexen Services (Alterway)'
 			, 'location':
@@ -311,6 +323,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Novembre 2006', 'end': 'Avril 2007'}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'Armadillo'
 			, 'location':
@@ -330,6 +343,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Juin 2005', 'end': 'Septembre 2006'}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'Amen France'
 			, 'location':
@@ -350,6 +364,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Mars 2005', 'end': 'Juin 2005'}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'Amen France'
 			, 'location':
@@ -365,6 +380,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Juin 2004', 'end': 'Janvier 2005'}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'LNA'
 			, 'location':
@@ -388,6 +404,7 @@ assets.xp =
 		}
 	,
 		{ 'period': { 'start': 'Janvier 2003', 'end': 'Août 2004'}
+		, 'starred': false
 		, 'company':
 			{ 'name': 'Com&Com'
 			, 'location':
