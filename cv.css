@@ -24,7 +24,6 @@ div.chronology
 	page-break-after: auto;
 }
 
-
 body
 {
 	width: 21cm;
@@ -49,6 +48,7 @@ div.main > div
 h1
 {
 	margin: 0;
+	margin-top: 6mm;
 	margin-bottom: 3mm;
 	padding: 0;
 }
@@ -252,7 +252,6 @@ div.chronology .topics li:before
 
 div.chronology .topics li
 {
-	float: left;
 	display: inline-block;
 	margin-left: 1mm;
 	width: 30%;
