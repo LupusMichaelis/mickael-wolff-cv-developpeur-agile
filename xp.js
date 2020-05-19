@@ -1,7 +1,6 @@
 assets.xp =
 	[
-		{ 'period': { 'start': 'Janvier 2019'}
-		, 'starred': true
+		{ 'period': { 'start': 'Janvier 2019', 'end': 'Février 2020'}
 		, 'company':
 			{ 'name': 'Elpev'
 			, 'location':
@@ -31,6 +30,7 @@ assets.xp =
 			, 'dockerization de « Proximity »'
 			, 'intégration graphique sur le front end de « Px² » (Elm, SCSS, Bulma)'
 			, 'tests fonctionnels (Selenium)'
+			, 'support à l\'intégration de développeurs externe'
 			]
 		}
 	,
