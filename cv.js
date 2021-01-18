@@ -1,3 +1,5 @@
+assets.target = { location: {country: 'France'}};
+
 assets.xp = assets.xp
 	.filter(function (xp)
 	{
@@ -5,7 +7,7 @@ assets.xp = assets.xp
 	})
 	.map(function (xp)
 	{
-		if(xp.company.location.country == assets.id.location.country)
+		if(xp.company.location.country == assets.target.location.country)
 			delete xp.company.location.country;
 
 		return xp;
@@ -14,7 +16,7 @@ assets.xp = assets.xp
 assets.training = assets.training
 	.map(function (training)
 	{
-		if(training.organism.location.country == assets.id.location.country)
+		if(training.organism.location.country == assets.target.location.country)
 			delete training.organism.location.country;
 
 		return training;
@@ -40,7 +42,13 @@ assets.skill_set = assets.skill_set
 		return skill.content && skill.content.length > 0;
 	});
 
-document.title = 'CV de ' + assets.id.name + ', ' + assets.id.role + '.';
+document.title = (
+    { 'France': `CV de ${assets.id.name}, ${assets.id.role}.`
+    , 'Swiss': `${assets.id.name}, ${assets.id.role}`
+    , 'Ireland': `${assets.id.name}, ${assets.id.role}`
+    , 'Germany': `${assets.id.name}, ${assets.id.role}`
+    })[assets.target.location.country];
+
 $(document.head)
 	.append($('<meta>', { name: 'description', 'content': 'CV'}))
 	.append($('<meta>', { name: 'author', 'content': assets.id.name}))
