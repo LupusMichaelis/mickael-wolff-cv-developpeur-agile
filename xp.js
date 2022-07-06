@@ -1,6 +1,70 @@
 assets.xp =
 	[
+		{ 'period': { 'start': 'Mars 2021' }
+		, 'starred': true
+		, 'company':
+			{ 'name': '3MA Group — Caméléon Digital'
+			, 'location':
+				{ 'city': 'Rouffach'
+				, 'country': 'France'
+				}
+			, 'business': 'Communication'
+			}
+		, 'role': 'Développeur, Opérations'
+		, 'skills':
+			[ 'PHP'
+			, 'Go'
+			, 'Elm'
+			, 'Git'
+			, 'Docker'
+			, 'Bash'
+			, 'JavaScript'
+			, 'WordPress'
+			, 'PrestaShop'
+			]
+
+		, 'missions':
+			[ 'Dockerization des plateformes clients'
+			, 'Amélioration globale des performances'
+			, 'Pipelining du déploiement'
+			, 'Rationalisation de l\'hébergement'
+			, 'Assistance dans l\'apprentissage d\'outils pas l\'équipe en place'
+			, 'Création d\'un Saas pour remplacer un plugin WP'
+			]
+		}
+	,
+		{ 'period': { 'start': 'Août 2020', 'end': 'Décembre 2020'}
+		, 'starred': true
+		, 'company':
+			{ 'name': 'Proxiad'
+			, 'location':
+				{ 'city': 'Strasbourg'
+				, 'country': 'France'
+				}
+			, 'business': 'ENI'
+			}
+		, 'role': 'Développeur'
+		, 'skills':
+			[ 'PHP'
+			, 'SOAP'
+			, 'Oracle DB'
+			, 'Git'
+			, 'Docker'
+			, 'Bash'
+			, 'JavaScript'
+			]
+
+		, 'missions':
+			[ 'automatisation de déploiement (Bash)'
+			, 'modernisation de services SOAP (PHP)'
+			, 'mise en place de tests unitaires (PHPUnit)'
+			, 'dockerization de services SOAP'
+			, 'correction d\'une application Kiosk (PHP, JavaScript)'
+			]
+		}
+	,
 		{ 'period': { 'start': 'Janvier 2019', 'end': 'Février 2020'}
+		, 'starred': true
 		, 'company':
 			{ 'name': 'Elpev'
 			, 'location':
